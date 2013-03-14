@@ -60,7 +60,7 @@ qq.FineUploaderBasic = function(o){
         },
         chunking: {
             enabled: false,
-            partSize: 2000000,
+            partSize: 2000000000,
             paramNames: {
                 partIndex: 'qqpartindex',
                 partByteOffset: 'qqpartbyteoffset',
