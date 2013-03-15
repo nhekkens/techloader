@@ -23,7 +23,7 @@ function readDirR($dir = "../FILES") {
 }
 
 function makeULLI($array) {
-    $return = "<ol>\n";
+    $return = "<ul>\n";
 
     if (is_array($array) && count($array) > 0) {
         foreach ($array as $k => $v) {
@@ -37,7 +37,7 @@ function makeULLI($array) {
         
     }
 
-    $return .= "</ol>";
+    $return .= "</ul>";
 
     return $return;
 }
