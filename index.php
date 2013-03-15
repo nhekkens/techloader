@@ -17,11 +17,16 @@
 
             
 <?php
+
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
 include "finder/recursivedirsearch.php";
-$dir = "../FILES";
-readDirR($dir);
+$dir = "FILES";
+print_r(makeULLI(readDirR($dir)));
+
+//test('WHYYY');
 ?>
-        
  
 </body>
 </html>
