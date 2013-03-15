@@ -1,31 +1,18 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Fine Uploader</title>
-        <meta charset="utf-8" />
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="uploader/css/styles.css" rel="stylesheet" type="text/css"/>
-        <link href="uploader/library/fineuploader.css" rel="stylesheet" type="text/css"/>
-        <script type="text/javascript" src="uploader/library/js/header.js"></script>
-        <script type="text/javascript" src="uploader/library/js/util.js"></script>
-        <script type="text/javascript" src="uploader/library/js/button.js"></script>
-        <script type="text/javascript" src="uploader/library/js/ajax.requester.js"></script>
-        <script type="text/javascript" src="uploader/library/js/deletefile.ajax.requester.js"></script>
-        <script type="text/javascript" src="uploader/library/js/handler.base.js"></script>
-        <script type="text/javascript" src="uploader/library/js/window.receive.message.js"></script>
-        <script type="text/javascript" src="uploader/library/js/handler.form.js"></script>
-        <script type="text/javascript" src="uploader/library/js/handler.xhr.js"></script>
-        <script type="text/javascript" src="uploader/library/js/uploader.basic.js"></script>
-        <script type="text/javascript" src="uploader/library/js/dnd.js"></script>
-        <script type="text/javascript" src="uploader/library/js/uploader.js"></script>
-        <script type="text/javascript" src="uploader/library/js/jquery-plugin.js"></script>
-        <script type="text/javascript" src="uploader/library/js/uploader-demo-jquery.js"></script>
-    </head>
-    <body>
-                <ul id="uploadWithVariousOptionsExample" class="unstyled"></ul>
-       
-    </body>
-</html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML5</title>
+    <link rel="stylesheet" type="text/css" href="uploader/style.css">
+	<script src="uploader/uploader.js"></script>
+</head>
 
+<body onload="new uploader('drop', 'status', 'uploader/uploader.php', 'list');">
+	<div id="box">
+		<div id="status">UPLOAD AREA</div>
+		<div id="drop"></div>
+		<p>DRAG & DROP</p>
+	</div>
+	<div id="list"></div>
+</body>
+</html>
