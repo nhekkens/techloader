@@ -7,11 +7,10 @@ body
     background-color: #f60;
     width: 400px;
     border: 3px solid black;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
     padding-bottom: 10px;
-    float: left;
+    position: absolute;
+    top: 300px;
+    left: 500px;
 }
 #box p 
 {
@@ -51,4 +50,18 @@ img
 {
     max-width: 400px;
     text-align: center;
+}
+#dirlist
+{
+   
+   /*display: none;*/
+}
+#finder
+{
+    position: absolute;
+    top: 300px;
+    left: 950px;
+    border: 3px solid black;
+    width: 300px;
+    height: 450px;
 }
